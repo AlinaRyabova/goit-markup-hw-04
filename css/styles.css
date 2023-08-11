@@ -91,6 +91,7 @@ button {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
 .header-nav {
@@ -103,6 +104,7 @@ button {
 .header-link-item {
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .header-link:not(:last-child) {
   margin-right: 40px;
@@ -124,7 +126,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 0 24px;
 }
 .header-contacts-list:not(:last-child) {
   margin-right: 40px;
@@ -154,11 +155,12 @@ button {
   border-radius: 2px;
   background-color: var(--primary-link-color);
   position: absolute;
-  bottom: -1px;
+  bottom: 0;
   left: 0;
 }
 /*--------------------MAIN--------------------*/
 .main-cap {
+  margin: 0 auto;
   max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -233,7 +235,6 @@ button {
   letter-spacing: 0.025em;
   color: var(--primary-color);
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 .feature-title-text {
   font-size: 16px;
@@ -316,7 +317,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 .content {
   padding: 32px 0;
